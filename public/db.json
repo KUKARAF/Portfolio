@@ -1,0 +1,127 @@
+{
+  "skills": [
+    {
+      "id": 1,
+      "name": "Team Player",
+      "description": "Highly adaptable, flexible professional who embraces teamwork, but also enjoys working independently.",
+      "icon": "fas fa-users"
+    },
+    {
+      "id": 2,
+      "name": "People Skills",
+      "description": "Regardless how much i value tech, people will always take the first place. What i care most about is being helpful and making the world a tiny bit better. The years and years of Customer Support experience kind of helps.",
+      "icon": "fas fa-info-circle"
+    },
+    {
+      "id": 3,
+      "name": "Python",
+      "description": "Years of self-taught experience. Constantly thinking up and taking part in tiny projects. I am in love with the simplicity and ease of use of python.Experience with: Django, flask, selenium, mechanize, pandas, json, BeautifulSoup, unittest etc.",
+      "icon": "fab fa-python"
+    },
+    {
+      "id": 4,
+      "name": "JavaScript",
+      "description": "Constantly dreaming up projects that sometimes needed to be deployed immediately. The easiest way to do so required GreasyMonkey scripts and Chrome extensions. If something needs a quick fix, I am the guy.",
+      "icon": "fab fa-js"
+    },
+    {
+      "id": 5,
+      "name": "CSS",
+      "description": "Is there anything worse than really white theme? No, there is not, I agree. A part of my experience comes from writing custom themes for all kinds of websites and developing my own websites.",
+      "icon": "fab fa-css3-alt"
+    },
+    {
+      "id": 6,
+      "name": "HTML",
+      "description": "Loads of HTML experience through years if web scraping, unit testing and hacky chrome extensions and greasy monkey scripts.",
+      "icon": "fab fa-html5"
+    },
+    {
+      "id": 7,
+      "name": "GIT",
+      "description": "No developer can do without version control. It's a tool that I use on the daily.",
+      "icon": "fab fa-git"
+    },
+    {
+      "id": 8,
+      "name": "Hardware",
+      "description": "My journey started with simple soldering jobs over to C² like PIC's, raspberries and hacked PS1 consoles all the way to high level programming languages and software cellphone repair. A lot of love I have for the tech industry is paved by hardware.",
+      "icon": "fas fa-microchip"
+    },
+    {
+      "id": 9,
+      "name": "Linux",
+      "description": "Initially it was just a way to have a free operating system but it's hard to not fall in Love with Linux. From years of experience I became somewhat a Terminal ninja.",
+      "icon": "fab fa-linux"
+    }
+  ],
+
+  "projects": [
+    {
+      "id": 1,
+      "name": "example Site1",
+      "description": "This portfolio design websites is very creative and lively. It mad by Cihad Turhan, ia creative front-end developer living in Ankara.The “what i hate” and “what i love” lists clearly show Cihad Turhan’s Physics background.",
+      "imgURL": "./imgs/portfolio/p1.gif"
+    },
+    {
+      "id": 2,
+      "name": "four in a row",
+      "description": "Connect Four (also known as Captain's Mistress, Four Up, Plot Four, Find Four, Four in a Row, Four in a Line, Drop Four, and Gravitrips (in Soviet Union)) is a two-player connection game in which the players first choose a color and then take turns dropping one colored disc from the top into a seven-column, six-row vertically suspended grid. ",
+      "imgURL": "./imgs/portfolio/p2.gif"
+    },
+    {
+      "id": 3,
+      "name": "path finding algorithm",
+      "description": "Algorithms such as Greedy, Dijkstra's algorithm, and A* eliminate paths either using educated guesses(heuristics) or distance from source to node V to find the optimal path. By eliminating impossible paths, these algorithms can achieve time complexities as low as O(E log(V)).",
+      "imgURL": "./imgs/portfolio/p3.gif"
+    },
+    {
+      "id": 4,
+      "name": "porfiriospizzaandpasta",
+      "description": "DescriptionPizza is a savory dish of Italian origin, consisting of a usually round, flattened base of leavened wheat-based dough topped with tomatoes, cheese, and various other ingredients baked at a high temperature, traditionally in a wood-fired oven.",
+      "imgURL": "./imgs/portfolio/p4.gif"
+    },
+    {
+      "id": 5,
+      "name": "Local Library",
+      "description": "A public library is a library that is accessible by the general public and is usually funded from public sources, such as taxes. It is operated by librarians and library paraprofessionals, who are also civil servants.",
+      "imgURL": "./imgs/portfolio/p5.gif"
+    },
+    {
+      "id": 6,
+      "name": "Local Bakery",
+      "description": "This area represents the core of the entire operational activity.  The Bakery serves as a bridge between the site’s own past and the newly found scope for the proliferation of bread in its various formats giving rise to a fusion of culinary, cultural, historical, social and entertaining initiatives.",
+      "imgURL": "./imgs/portfolio/p6.gif"
+    }
+  ],
+  "contactLinks": [
+    {
+      "id": 1,
+      "name": "GitHub",
+      "icon": "fab fa-github",
+      "link": "https://github.com/KUKARAF",
+      "description": "testets"
+    },
+    {
+      "id": 2,
+      "name": "Facebook",
+      "icon": "fab fa-facebook-f",
+      "link": "https://www.facebook.com/Rafalku94",
+      "description": "testets"
+    },
+    {
+      "id": 3,
+      "name": "Linkedin",
+      "icon": "fab fa-linkedin",
+      "link": "https://www.linkedin.com/in/rafal-kukawski-4176aa12b/",
+      "description": "testets"
+    },
+    {
+      "id": 4,
+      "name": "Phone",
+      "icon": "fas fa-phone",
+      "link": "tel:+35677194211",
+      "description": "testets"
+    }
+  ]
+}

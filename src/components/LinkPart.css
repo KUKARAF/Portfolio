@@ -1,0 +1,28 @@
+.text-white {
+  font-size: 30px;
+  display: flex;
+}
+.textContainer {
+  /* background-color: green; */
+  text-align: center;
+  flex-grow: 1;
+}
+
+.text-white .iconContainer {
+  /* background-color: green; */
+  text-align: left;
+  border-right: 2px solid #654294;
+}
+
+.cardLink:hover {
+  text-decoration: none;
+  transform: scale(1.01);
+  transition: all 0.3s;
+
+  text-shadow: 0 0 10px rgba(255, 255, 255, 1), 0 0 20px rgba(255, 255, 255, 1),
+    0 0 30px rgba(255, 255, 255, 1), 0 0 40px #ff00de, 0 0 70px #ff00de,
+    0 0 80px #ff00de, 0 0 100px #ff00de;
+}
+.card {
+  background: none;
+}

@@ -1,0 +1,26 @@
+#propic {
+  transform: rotate(-5deg);
+  border: 5px solid white;
+  width: 50%;
+}
+.bgvect {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.purpleButton {
+  background-color: #514686;
+  border: #514686;
+}
+
+.purpleButton:hover {
+  color: rgba(255, 255, 255, 1);
+  background-color: #514686;
+
+  text-shadow: 0 0 10px rgba(255, 255, 255, 1), 0 0 20px rgba(255, 255, 255, 1),
+    0 0 30px rgba(255, 255, 255, 1), 0 0 40px #ff00de, 0 0 70px #ff00de,
+    0 0 80px #ff00de, 0 0 100px #ff00de;
+  -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+}

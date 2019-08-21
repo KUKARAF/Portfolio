@@ -1,0 +1,81 @@
+/* The slider itself */
+.slider {
+  -webkit-appearance: none; /* Override default CSS styles */
+  appearance: none;
+  width: 100%; /* Full-width */
+  height: 25px; /* Specified height */
+  background: #d3d3d3; /* Grey background */
+
+  opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+  -webkit-transition: 0.2s; /* 0.2 seconds transition on hover */
+  transition: opacity 0.2s;
+}
+
+/* Mouse-over effects */
+.slider:hover {
+  opacity: 1; /* Fully shown on mouse-over */
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  width: 25px; /* Set a specific slider handle width */
+  height: 25px; /* Slider handle height */
+  background: #684e8b; /* purple background */
+  cursor: pointer; /* Cursor on hover */
+}
+
+.slider::-moz-range-thumb {
+  width: 25px; /* Set a specific slider handle width */
+  height: 25px; /* Slider handle height */
+  background: #684e8b; /* purple background */
+  cursor: pointer; /* Cursor on hover */
+}
+
+.choseButtons button {
+  background-color: #684e8b;
+  color: white;
+  border: none;
+}
+.UserDetails {
+  width: 100%;
+  background-color: #684e8b;
+  border: none;
+  color: white;
+  font-size: 25px;
+}
+
+.UserDetails:active {
+  background-color: #684e8b;
+}
+
+input::placeholder {
+  color: white;
+}
+
+textarea::placeholder {
+  color: white;
+}
+textarea {
+  background-color: #684e8b;
+  border: none;
+  color: white;
+}
+button:hover {
+  color: white !important ;
+  text-decoration: none;
+  transform: scale(1.01);
+  transition: transform 1s;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 1), 0 0 20px rgba(255, 255, 255, 1),
+    0 0 30px rgba(255, 255, 255, 1), 0 0 40px #f9f9f9, 0 0 70px #f9f9f9,
+    0 0 80px #f9f9f9, 0 0 100px #f9f9f9;
+}
+.slidecontainer {
+  background-color: #684e8b4d;
+  border: #684e8b4d solid;
+}
+.slidecontainer button {
+  width: 100%;
+  background-color: #684e8b;
+}

@@ -1,0 +1,20 @@
+.Lang {
+  font-size: 3em;
+}
+
+.Lang:nth-child(1):hover:before {
+  content: "🇩🇪";
+  transition: content 4s ease;
+}
+
+.Lang:nth-child(2):hover:before {
+  content: "🇬🇧";
+}
+
+.Lang:nth-child(3):hover:before {
+  content: "🇪🇸";
+}
+
+.Lang:nth-child(4):hover:before {
+  content: "🇵🇱";
+}
